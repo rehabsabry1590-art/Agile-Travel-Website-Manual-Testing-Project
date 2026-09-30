@@ -20,21 +20,13 @@ I started this project while learning manual testing. My goal was to go beyond t
 - Bug Reporting
 - Defect-to-test-case traceability
 
-## Deliverables
-- Test Cases
-- Bug Reports
-- Test Data (included in each test case)
-- Test Summary Report
-- Screenshots
-
 ## Repository Contents
 
-| Folder | Contents |
+| File | Description |
 |---|---|
-| [`test-cases/`](test-cases/) | 41 test cases with steps, test data, expected and actual results, and execution status (Excel + PDF) |
-| [`bug-reports/`](bug-reports/) | 26 defects with steps, expected vs. actual result, severity, priority, and the linked test case (Excel + PDF) |
-| [`summary-report/`](summary-report/) | Test summary report with execution results |
-| [`screenshots/`](screenshots/) | Evidence showing where each defect appears in the application |
+| [`Test Cases.pdf`](Test%20Cases.pdf) | 41 test cases with steps, test data, expected and actual results, and execution status |
+| [`Bug Report.pdf`](Bug%20Report.pdf) | 26 defects with steps, expected vs. actual result, severity, priority, and the linked test case |
+| [`Summary.pdf`](Summary.pdf) | Test summary report |
 | [`images/`](images/) | Screenshot of the application under test |
 
 ## Scope
@@ -52,7 +44,7 @@ I started this project while learning manual testing. My goal was to go beyond t
 3. **Wrote the test cases in Jira**, each with a clear objective, steps, test data, and expected result.
 4. **Executed every test case** and recorded the actual result and pass/fail status.
 5. **Logged a defect in Jira for every failure**, linked it to its test case for full traceability, and attached a screenshot showing where the problem appears in the application.
-6. **Documented everything in Excel** (test cases, bug report, and summary) so the results can be reviewed without Jira access.
+6. **Documented everything in Excel** (test cases, bug report, and summary) and exported it to PDF, so the results can be reviewed without Jira access.
 7. **Reviewed the documents for consistency** and corrected errors such as copy-paste mistakes in actual results, unclear test data, and inconsistent severity ratings.
 
 ## Results

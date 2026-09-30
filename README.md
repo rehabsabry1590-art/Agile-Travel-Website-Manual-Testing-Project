@@ -43,7 +43,7 @@ I started this project while learning manual testing. My goal was to go beyond t
 2. **Designed test cases** covering both positive (valid) and negative (invalid) scenarios, including boundary-style cases such as today's date, a past date, the same departure and return date, and over-length input.
 3. **Wrote the test cases in Jira**, each with a clear objective, steps, test data, and expected result.
 4. **Executed every test case** and recorded the actual result and pass/fail status.
-5. **Logged a defect in Jira for every failure**, linked it to its test case for full traceability, and attached a screenshot showing where the problem appears in the application.
+5. **Logged a defect in Jira for every failure** and linked it to its test case for full traceability.
 6. **Documented everything in Excel** (test cases, bug report, and summary) and exported it to PDF, so the results can be reviewed without Jira access.
 7. **Reviewed the documents for consistency** and corrected errors such as copy-paste mistakes in actual results, unclear test data, and inconsistent severity ratings.
 
@@ -100,7 +100,7 @@ I started this project while learning manual testing. My goal was to go beyond t
 
 - Test case design (positive, negative, boundary-style scenarios)
 - Manual test execution and result tracking
-- Defect reporting with clear steps, expected vs. actual results, severity, priority, and screenshots
+- Defect reporting with clear steps, expected vs. actual results, severity, and priority
 - Requirement-to-defect traceability (every bug linked to its test case)
 - Working with Jira and Excel
 - Reviewing and improving QA documentation for accuracy and consistency
